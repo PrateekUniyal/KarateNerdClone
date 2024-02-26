@@ -1,0 +1,19 @@
+.section1{
+        background-size: cover;
+        background-image: url('/styles/images/BackgroundImage.jpg');
+}
+
+.getGuideButton{
+        display: inline-block;
+        padding: 15px 53px;
+        text-decoration: none;
+        margin-top: 30%;
+        margin-left: 15%;
+        cursor: pointer;
+        border: 1px solid rgb(0, 143, 226);
+        border-radius: 20px;
+        background-color: rgb(0, 143, 226);
+        color: white;
+        font-size: 21px;
+    
+}

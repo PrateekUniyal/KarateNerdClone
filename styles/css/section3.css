@@ -1,0 +1,67 @@
+.overlay3 {
+    position: relative;
+    width: 100%;
+    height: 100%; /* Set your desired height */
+    background-image: url('/styles/images/background_first.jpg'); /* Set your background image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .overlay3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(242,246,248,0.9);
+  }
+  
+  .section3 > * {
+    position: relative;
+  }
+
+.section3{
+    display: flex;
+      gap: 3%;
+}
+
+.container{
+    /* background-color: aquamarine; */
+    height: 90%;
+    width: 45%;
+    margin-left: 4%;
+   
+}
+
+.authorimage{
+    height: 62%;
+    width: 45%;
+    /* background-color: #008fe2; */
+    margin-left: 27%;
+    margin-top: 5%;
+}
+
+.section3text{
+    background-color: white;
+    /* margin-top: -26%;
+    margin-left: 50%; */
+    margin-top:2% ;
+    height: 85%;
+    width: 41%;
+    border: 1px solid #008fe2;
+    border-radius: 6px;
+    text-align: left;
+    padding: 1%;
+}
+
+.s3textheading{
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.sign{
+    background-color: bisque;
+    height: 20%;
+    width: 30%;
+}

@@ -1,0 +1,37 @@
+.footer{
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+    display: flex;
+}
+
+.FB {
+    flex: 1; 
+    text-align: center;
+    
+    background-color: rgb(59, 89, 152);
+}
+
+.twitter {
+    flex: 1; 
+    text-align: center;
+   
+    background-color: rgb(0, 172, 237);
+}
+
+.mail {
+    flex: 1; 
+    text-align: center;
+    background-color: rgb(170, 170, 170);
+}  
+
+ .share {
+    flex: 1; 
+    text-align: center;
+    background-color: rgb(15, 82, 186);
+} 
+
+.socialmedia {
+    height: 30px;
+    padding-top: 10px;
+}

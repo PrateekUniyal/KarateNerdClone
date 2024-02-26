@@ -1,0 +1,218 @@
+.section6 {
+    display: flex;
+    gap: 3%;
+    align-items: center;
+}
+
+.dbox1,.dbox2,.dbox3,.dbox4 {
+    
+    /* background-color: #ccc;  */
+    box-sizing: border-box;
+}
+
+.dbox1{
+    width:40%;
+    height: 80%;
+    margin-left: 3%;
+}
+
+.sec6s1{ 
+    /* background-color: rgb(232, 238, 49); */
+    margin-left: 10%;
+    display: block;
+    width: 80%;
+}
+
+.sec6text1{
+    width: 100%;
+    
+}
+
+.sec6text{
+    background-color: #1A93FF;
+    height: 76%;
+    width: 100%;
+}
+
+.sec6text1{
+    color: white;
+    text-align: justify;
+    font-size: 22px;
+}
+
+.tri1{
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    /* border-bottom: 50px solid #1643ad; */
+    border-top: 20px solid #1A93FF;
+    margin-left: 70%;
+}
+
+.sec6cont1{
+    /* background-color: chartreuse; */
+    height: 36%;
+    width: 100%;
+}
+
+.sec6img1{
+    margin-left: 15%;
+    height: 32%;
+    width: 22%;
+}
+
+ .dbox2{
+        width:40%;
+        height: 80%;
+    }
+
+    .sec6s2{ 
+        /* background-color: rgb(232, 238, 49); */
+        margin-left: 10%;
+        display: block;
+        width: 80%;
+    }
+    
+    .sec6text2{
+        width: 100%;
+        
+    }
+    
+    .sec6text2{
+        background-color: #EEEEEE;
+        height: 76%;
+        width: 100%;
+    }
+    
+    .sec6text2{
+        color: black;
+        text-align: justify;
+        font-size: 22px;
+    }
+    
+    .tri2{
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        /* border-bottom: 50px solid #1643ad; */
+        border-top: 20px solid #EEEEEE;
+        margin-left: 70%;
+    }
+    
+    .sec6cont2{
+        /* background-color: chartreuse; */
+        height: 36%;
+        width: 100%;
+    }
+    
+    .sec6img2{
+        margin-left: 15%;
+        height: 32%;
+        width: 22%;
+    }
+
+.dbox3{
+     width:40%;
+     height: 80%;
+        }
+
+        
+    .sec6s3{ 
+        /* background-color: rgb(232, 238, 49); */
+        margin-left: 10%;
+        display: block;
+        width: 80%;
+    }
+    
+    .sec6text3{
+        width: 100%;
+        
+    }
+    
+    .sec6text3{
+        background-color: #1E1E1E;
+        height: 76%;
+        width: 100%;
+    }
+    
+    .sec6text3{
+        color: white;
+        text-align: justify;
+        font-size: 22px;
+    }
+    
+    .tri3{
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        /* border-bottom: 50px solid #1643ad; */
+        border-top: 20px solid #1E1E1E;
+        margin-left: 70%;
+    }
+    
+    .sec6cont3{
+        /* background-color: chartreuse; */
+        height: 36%;
+        width: 100%;
+    }
+    
+    .sec6img3{
+        margin-left: 15%;
+        height: 32%;
+        width: 22%;
+    }
+
+ .dbox4{
+      width:40%;
+      height: 80%;
+      margin-right: 3%;
+          }
+
+          .sec6s4{ 
+            /* background-color: rgb(232, 238, 49); */
+            margin-left: 10%;
+            display: block;
+            width: 80%;
+        }
+        
+        .sec6text4{
+            width: 100%;
+            
+        }
+        
+        .sec6text4{
+            background-color: #C5DFFF;
+            height: 76%;
+            width: 100%;
+        }
+        
+        .sec6text4{
+            color: black;
+            text-align: justify;
+            font-size: 22px;
+        }
+        
+        .tri4{
+            width: 0;
+            height: 0;
+            border-left: 15px solid transparent;
+            border-right: 15px solid transparent;
+            /* border-bottom: 50px solid #1643ad; */
+            border-top: 20px solid #C5DFFF;
+            margin-left: 70%;
+        }
+        
+        .sec6cont4{
+            /* background-color: chartreuse; */
+            height: 36%;
+            width: 100%;
+        }
+        
+        .sec6img4{
+            margin-left: 15%;
+            height: 32%;
+            width: 22%;
+        }

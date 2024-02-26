@@ -1,0 +1,64 @@
+.header{
+    display: flex;   
+     
+}
+
+.logo{
+    /* background-color: aqua; */
+    height: 35%;
+    width: 15%;
+    margin-left: 11%;
+    margin-top: 2%;
+}
+
+.navbar{
+    /* background-color: rgb(164, 164, 171); */
+    display: flex;
+    height: 70%;
+    width: 67%;
+    margin-left: 6%;
+    
+    
+    margin-top: 1%;
+}
+.nav{
+    /* background-color: brown; */
+    height: 100%;
+    width: 78%;
+}
+
+.navul{
+    display: flex;
+    list-style-type: none;  
+    gap: 6%;
+    font-size: 13px;
+     
+}
+
+/* .navli{
+    margin-right: 10px;
+} */
+
+.karateGi{
+    /* background-color: rgb(96, 192, 98); */
+    height: 100%;
+    width: 13%;
+}
+
+.karateGilink{
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 2%;
+    cursor: pointer;
+    border: 1px  solid #008fe2;
+    border-radius: 6px;
+    color: #008fe2;
+    font-size: 13px;
+    
+}
+
+.karateGilink:hover{
+    background-color: #008fe2;
+    color: white;
+}

@@ -1,0 +1,67 @@
+.overlay2 {
+    position: relative;
+    width: 100%;
+    height: 100%; /* Set your desired height */
+    background-image: url('/styles/images/background_3-1.jpg'); /* Set your background image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .overlay2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(78, 135, 180,0.85);
+  }
+  
+  .section7 > * {
+    position: relative;
+  }
+
+.section7 {
+    display: flex;
+    gap: 3%;
+}
+
+.sec7box1, .sec7box2 {
+     margin-top: 5%;
+    /* background-color: rgb(3, 67, 88); */
+}
+
+.sec7box1{
+    height: 60%;
+    width: 40%; 
+    margin-left: 12%;
+}
+
+.sec7box2{
+    height: 70%;
+    width: 40%;
+    overflow: hidden;
+}
+
+.sec7text{
+    color: white;
+    text-align: center;
+}
+
+.button {
+    margin-left: 35%;
+    display: inline-block;
+    padding: 17px 55px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+
+.button:hover {
+    background-color: #007bff;
+    color: white;
+}

@@ -1,0 +1,72 @@
+.overlay {
+  position: relative;
+  width: 100%;
+  height: 100%; /* Set your desired height */
+  background-image: url('/styles/images/background_second-3.jpg'); /* Set your background image URL */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.overlay::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85); /* Adjust the transparency by changing the last value (0.7 for 70% opacity) */
+}
+
+/* Ensure child elements are positioned on top of the overlay */
+.section5 > * {
+  position: relative;
+}
+
+.sec1 {
+  height: 10%;
+  width: 100%;
+}
+
+.heading {
+  color: white;
+  text-align: center;
+  font-size: 45px;
+}
+
+.sec2 {
+  display: flex;
+  gap: 2%;
+  height: 70%;
+  width: 100%;
+}
+
+.image {
+  margin-left: 10%;
+  height: 100%;
+  width: 50%;
+}
+
+.text {
+  height: 100%;
+  width: 25%;
+}
+
+.textStyle {
+  text-decoration: none;
+}
+
+.customization {
+  color: white;
+  font-size: 20px;
+}
+
+.customization:hover {
+  color: rgb(7, 125, 236);
+}
+
+.content3 {
+  margin-top: 2%;
+  margin-left: 10%;
+  height: 10%;
+  width: 100%;
+}
